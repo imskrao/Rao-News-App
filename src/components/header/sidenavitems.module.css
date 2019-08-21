@@ -1,0 +1,16 @@
+.options {
+    font-weight: 300;
+    color: #bababa;
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #404040;
+}
+
+.options a {
+    color: inherit;
+}
+
+.options span {
+    color: #fff;
+    margin-right: 10px;
+}
