@@ -1,0 +1,46 @@
+.videostemplate {
+    display: flex;
+    border-bottom: 2px solid #d5d5d5;
+    background-color: #fff;
+}
+
+.videostemplate .left {
+    background-size: cover !important;
+}
+
+.videostemplate .left div {
+    height: 90px;
+    width: 90px;
+    background-size: 40px !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background: url('/images/play.png');
+}
+
+.videostemplate h2 {
+    text-align: left;
+    color: #525252;
+    font-size: 13px;
+}
+
+.videostemplate .right {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.videostemplate .right .dateTeam {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.videostemplate .right .dateTeam .teamName {
+    margin-right: 7px;
+    background-color: #d1d1d1;
+    color: #fff;
+    padding: 2px 5px;
+}
+
+.videostemplate .right .dateTeam .date {
+    color: #2196f3;
+}

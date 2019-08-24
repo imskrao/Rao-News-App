@@ -1,0 +1,23 @@
+.videoslist_wrapper {
+    text-align: center;
+    color: #353535;
+    font-weight: 300;
+    font-size: 21px;
+}
+
+.loadMoreBtn {
+    text-align: center;
+    background-color: #2196f3;
+    border: 1px solid #d7d7d7;
+    font-weight: 500;
+    color: #eee;
+    display: block;
+    width: 100%;
+    font-size: 15px;
+}
+
+.loadMoreBtn a {
+    color: #eee;
+    padding: 9px;
+    display: block;
+}
