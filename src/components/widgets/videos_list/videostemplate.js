@@ -3,7 +3,7 @@ import Classes from './videostemplate.module.css'
 import { Link } from 'react-router-dom'
 
 export default function VideosTemplate(props) {
-    console.log("----------------",props)
+    // console.log("----------------",props)
     return props.videos.map((item, i) => {
         return (
         <Link to={`/videos/${item.id}`} key={i}>
