@@ -21,3 +21,15 @@
     padding: 9px;
     display: block;
 }
+
+.loadMore {
+    text-align: center;
+    background-color: #2196f3;
+    border: 1px solid #d7d7d7;
+    font-weight: 500;
+    color: #eee;
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    padding: 9px;
+}

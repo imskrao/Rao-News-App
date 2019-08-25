@@ -36,7 +36,7 @@ export default class NewsList extends Component {
         }))
     }
 
-        loadMore = () => {
+    loadMore = () => {
         let end = this.state.end + this.state.amount;
         this.request(this.state.end,end)
     }

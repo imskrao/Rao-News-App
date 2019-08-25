@@ -36,6 +36,11 @@ export default class VideosList extends Component {
         }))
     }
 
+    loadMore = () => {
+        let end = this.state.end + this.state.amount;
+        this.request(this.state.end,end)
+    }
+
     renderVideos = () => {
         let template = null;
             if(this.state.videos.length && this.state.teams.length) {
@@ -56,7 +61,7 @@ export default class VideosList extends Component {
     }
 
     renderButton = () => {
-        return this.props.loadmore ? 'load more' : <button className={Classes.loadMoreBtn}>
+        return this.props.loadmore ? (<button className={Classes.loadMore} onClick={() => this.loadMore()}>Load More</button>) : <button className={Classes.loadMoreBtn}>
             <Link to="/videos">Load More Videos</Link>
         </button>;
     }
